@@ -1,0 +1,27 @@
+section {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: #ededed;
+}
+.vizitka {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 300px;
+  text-align: center;
+}
+.vizitka .front {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: column;
+  flex-direction: column;
+  position: relative;
+}
+
+h2 {
+  font-style: italic;
+  color: darkgray;
+  font-size: 20px;
+}
